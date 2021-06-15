@@ -1,0 +1,94 @@
+.header-text{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.login_border{
+    border-top: red solid 5px;
+    border-bottom: black 5px;
+}
+
+.resize-pfp{
+    width:75px;
+    height:75px;
+}
+
+.pfp-border {
+    width: 75px;
+    height: 75px;
+    overflow: hidden;
+    -webkit-border-radius: 75%;
+    -moz-border-radius: 75%;
+    -ms-border-radius: 75%;
+    -o-border-radius: 75%;
+    border-radius: 75%;
+    border-color:red solid 1px;
+}
+
+.cloud{
+    width: 50px !important;
+}
+
+.header-login{
+    display: flex;
+    justify-content: space-between;
+    padding:15px;
+    background:black;
+}
+
+body {
+    background-image: url("paper.gif");
+    background-color: #cccccc;
+}
+
+.h1_color{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-color{
+    color:white;
+}
+
+.no_underline{
+    text-decoration: none;
+}
+
+.username-padding{
+    margin-right: 10px;
+    margin-top:5px;
+    text-align: center;
+}
+
+.dropdown-spacing{
+    margin-top: 10px;
+    margin-right:10px;
+}
+
+.body-background{
+    background: url('https://images-ext-1.discordapp.net/external/6e5S-jge6YWqwkPb_bUyb9glrdlHu8waByWb23btrcE/%3Ftoken%3DeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD03MjAiLCJwYXRoIjoiXC9mXC81ODcxOTcxZS0xNGQxLTQzYmUtODZiMi1iMTc3MDViNDhjZGVcL2Rja2FxOXAtZDE3N2Y5Y2QtOGNlNC00ZjA4LTg4NTUtNTYxMmQ3YzZhY2NhLnBuZyIsIndpZHRoIjoiPD0xMjgwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.sk3jXvDv8g11J4UoJ8jdRSLonrWyw0BL7oiV2jj0Iu4/https/images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5871971e-14d1-43be-86b2-b17705b48cde/dckaq9p-d177f9cd-8ce4-4f08-8855-5612d7c6acca.png/v1/fill/w_1280%2Ch_720%2Cq_80%2Cstrp/jabami_yumeko___minimalist_by_reikokosaki_dckaq9p-fullview.jpg?width=1202&height=676') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+#my_form_again{
+background-color: transparent;
+}
+
+#my_form{
+    background-color: transparent;
+    }
+
+.button-bg{
+    padding:10px;
+    background:linear-gradient(to bottom, #969696, #030303);
+    margin-left:5px;
+    border-radius:5px;
+    padding-left: 30px;
+    padding-right:30px;
+    border:none;
+}
+
+.center-header-text{
+    margin-left:70px;
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/home.css' %}">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <title>Home</title>
+</head>
+
+<body>
+    <div id="container">
+        <div class="header">
+            <img class='cloud' src="{% static 'images/akatsukicloud.png' %}" alt='clouds'>
+            <img class='cloud' src="{% static 'images/akatsukicloud.png' %}" alt='clouds'>
+            <img class='cloud' src="{% static 'images/akatsukicloud.png' %}" alt='clouds'>
+            <h1 class="h1_color header-color ">My<span style="color:red">ANIME</span></h1>
+            <img class='cloud' src="{% static 'images/akatsukicloud.png' %}" alt='clouds'>
+            <img class='cloud' src="{% static 'images/akatsukicloud.png' %}" alt='clouds'>
+            <img class='cloud' src="{% static 'images/akatsukicloud.png' %}" alt='clouds'>
+        </div>
+
+        <div id="main-container">
+            <a href=https://www.tiktok.com/@therobinproject?_d=secCgsIARCbDRgBIAIoARI%2BCjybDYlUjzyvE2c80ovVW1Lm%2B8aqvOS8DvsIleATIA%2FvH9emsNmBUtKrv2cPx8qCfIBuSb%2Fdx4LVmIokaeYaAA%3D%3D&app=musically&language=en&sec_uid=MS4wLjABAAAALHeuSmTQ10DH95r8g5gDxr9BIgs-qb3azNi54SWbRsxqsJbkywNa3iMO6TaTQllo&share_author_id=6801660363756504069&tt_from=copy&u_code=db8c3mjhj7a7ha&user_id=6801660363756504069&utm_campaign=client_share&utm_medium=ios&utm_source=copy&source=h5_m>
+                <img src="{% static 'images/IMG_2181.jpg' %}" alt='image' class="img-padding resize-main-img" />
+            </a>
+            
+            <div class="three-boxes">
+                <div class="service-box md-mb">
+                    <div class="box-header">
+                        <img src="{% static 'images/crunchyroll.png' %}" alt="crunchyroll icon"
+                            class="resize-img img-color">
+                        <h2 class="box-header-font">CRUNCHYROLL</h2>
+                    </div>
+                    <p class="header-color margin-sm to-arial box-text pb-5">Do you watch a lot of anime? Do you want a
+                        site
+                        to stream all of your favorite anime? Click the button below to go to Crunchyroll, a popular
+                        anime streaming site!</p>
+                    <a href='https://www.crunchyroll.com/' class="button-bg">
+                        <small class="btn text-light header-color">Go to site</small>
+                    </a>
+                </div>
+                <div class="login_box md-mb">
+                    <a href='/index'><img src="{% static 'images/shuriken.png' %}" alt='login shuriken'
+                            class='shuriken_image'></a>
+                </div>
+                <div class="service-box md-mb">
+                    <div class="box-header">
+                        <img src="{% static 'images/discord.png' %}" alt="discord icon" class="resize-img img-color">
+                        <h2 class="box-header-font">DISCORD</h2>
+                    </div>
+                    <p class="header-color margin-sm to-arial box-text pb-5">If you would like to be a part of an active
+                        anime community, click the button below to join our discord server! Discuss anime episodes
+                        together and more!</p>
+                    <a href='https://discord.gg/JMyz7q77' class="button-bg">
+                        <small class="btn text-light header-color ">Join our Discord</small>
+                    </a>
+                </div>
+            </div>
+            <div class="two-boxes justify-content-space-between">
+                <div class="bot-box">
+                    <iframe width="350" height="180" src="https://www.youtube.com/embed/ETHpMMV8rJU?start=2"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+                <div class="bot-box">
+                    <iframe width="350" height="180" src="https://www.youtube.com/embed/A4kLcDWBYcQ"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+            <footer class='footer-color'>
+                <a href='' class='no-underline'><h5 class="text-light md-mr to-arial">Home</h5></a>
+                <a href='' class='no-underline'><h5 class="text-light md-mr to-arial">About</h5></a>
+                <a href='' class='no-underline'><h5 class="text-light md-mr to-arial">Project</h5></a>
+                <a href='' class='no-underline'><h5 class="text-light md-mr to-arial">Clients</h5></a>
+                <a href='/index' class='no-underline'><h5 class="text-light md-mr to-arial">Login</h5></a>
+
+            </footer>
+        </div>
+        </main>
+    </div>
+</body>
+
+</html>
